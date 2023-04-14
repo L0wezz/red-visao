@@ -11,6 +11,8 @@ class Corte:
 
     @utils.timing
     def run(self, fonte, dest: Optional[estruturas.Imagem] = None) -> int:
+        """
+        """
         dados = self._model.dados
         imagem = deepcopy(fonte)
 
