@@ -26,7 +26,7 @@ def list_ports():
 
 class GUI_camera(QMainWindow):
     def __init__(self,  app, callback):
-        """Inicia  a interface de seleção de câmera 
+        """
 
         Args:
             callback (function):
